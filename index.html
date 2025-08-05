@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bán Font Chữ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
-  <div id="root">Đang tải...</div>
-  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/babel-standalone@7.22.10/babel.min.js"></script>
-  <script type="text/babel">
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<h1>Chào thế giới!</h1>);
-  </script>
+    <header>
+        <h1>Cửa hàng Font Chữ</h1>
+        <p>Khám phá bộ sưu tập font chữ độc đáo của chúng tôi!</p>
+    </header>
+    <main>
+        <section class="font-list">
+            <!-- Font 1 -->
+            <div class="font-card">
+                <img src="fonts/preview/font1-preview.png" alt="Font 1 Preview">
+                <h2>Font 1</h2>
+                <p>Mô tả: Một font chữ hiện đại, phù hợp cho thiết kế poster.</p>
+                <p>Giá: $5.00</p>
+                <button onclick="purchaseFont('font1', 500)">Mua ngay</button>
+            </div>
+            <!-- Font 2 -->
+            <div class="font-card">
+                <img src="fonts/preview/font2-preview.png" alt="Font 2 Preview">
+                <h2>Font 2</h2>
+                <p>Mô tả: Font chữ viết tay, lý tưởng cho thiệp mời.</p>
+                <p>Giá: $7.00</p>
+                <button onclick="purchaseFont('font2', 700)">Mua ngay</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Cửa hàng Font Chữ. Mọi quyền được bảo lưu.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
