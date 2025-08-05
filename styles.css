@@ -1,0 +1,78 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.app-header {
+  background-color: #2563eb;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.header-subtitle {
+  margin-top: 0.5rem;
+}
+
+.font-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.font-card {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 20rem;
+}
+
+.font-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.font-card-description {
+  color: #4b5563;
+  margin-top: 0.5rem;
+}
+
+.font-card-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.font-card-preview {
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+.font-card-button {
+  margin-top: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.font-card-button:hover {
+  background-color: #2563eb;
+}
+
+.app-footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
